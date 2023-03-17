@@ -1,0 +1,194 @@
+.c-academy{
+    overflow: hidden;
+    padding: 30px 0px;
+    background-color:#AF92C2 ;
+
+    .academy{
+        &-title{
+            color:#fff;
+            text-transform: uppercase;
+            font-size: 40px;
+            font-weight: 700;
+        }
+    }
+}
+.holderCircle{
+    width:500px;
+    height:500px;
+    border-radius:100%;
+    margin:60px auto;
+    position:relative;
+}
+
+/* .holderCircle::after{
+    content:'';
+    width:500px;
+    height:500px;
+    border-radius:100%;
+    border:1px solid #000;
+    position:absolute;
+    top:0;
+} */
+
+.dotCircle{
+    width:100%;
+    height:100%;
+    position:absolute;
+    margin:auto;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius:100%;
+    z-index:20;
+}
+
+.dotCircle  .itemDot{
+    display:block;
+    width:80px;
+    height:80px;
+    position:absolute;
+    background:transparent;
+    color:#000;
+    border-radius:100%;
+    text-align: center;
+    line-height: 80px;
+    font-size:30px;
+    z-index:3;
+    cursor:pointer;		
+}
+
+.dotCircle  .itemDot::after {
+    content:"";
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    border-radius: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index:2;
+    font-weight: 700;
+}
+.dotCircle  .itemDot::before{
+    content:"";
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    border-radius: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index:2;
+    
+}
+
+
+.dotCircle .itemDot.active{
+    background:#34495e;
+    color:#fff;
+    transition:0.5s;
+    font-weight: 800;
+}
+
+
+.dotCircle  .itemDot .forActive{
+    width:56px;
+    height:56px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display:none;
+    font-weight: 800;
+}
+.text{
+    font-weight: 300;
+}
+.dotCircle  .itemDot.active .forActive{
+    display:block;
+}
+.holderCircle{
+    position: relative;
+    right: -30%;
+}
+.dotCircle .itemDot:hover::before{
+    border-color:#34495e;
+}	
+
+
+.contentCircle{
+    border-radius: 100%;
+    
+    color: #fff;
+    position: relative;
+    
+}
+
+.contentCircle .CirItem{
+    color: #000;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    margin: auto;
+    
+    
+}
+
+.CirItem.active{
+    z-index:1;
+    opacity:1;
+    transform:scale(1);
+    transition:0.5s;
+}
+
+.title{
+    font-size: 25px ;
+    font-weight: 700;
+    text-align: start;
+    padding-bottom: 16px;
+}
+
+.content{
+    font-weight: 400;
+    text-align: start;
+    font-size: 16px;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 599px){
+
+    .holderCircle {
+        width: 300px;
+        height: 300px;
+        margin:110px auto;
+    }
+    .holderCircle::after {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .dotCircle{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+
+    }
+
+
+}

@@ -1050,99 +1050,53 @@ html .botao-lancamento:hover {
   src: url("fonts/sporty/SportyPro-Bold.otf") format("opentype");
 }
 /** PAGE PALMEIRAS **/
-p {
-  margin-bottom: 0px;
+.menu {
+  padding: 30px 0px;
 }
-
-.topo {
-  position: absolute;
-  width: 100%;
-  height: 300px;
+.menu .c-logo .logo {
+  height: 80px;
 }
-.topo .img-top {
-  width: 100%;
-  position: absolute;
-  top: 0px;
-  height: 300px;
+.menu .options-menu .option {
+  color: #000;
+  text-decoration: none;
+  margin: 0px 16px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.menu .options-menu .option span {
+  color: rgba(175, 146, 194, 0.5);
+}
+.menu .options-menu .option-login {
+  padding: 5px 50px;
+  border: 2px rgba(175, 146, 194, 0.5) solid;
+  border-radius: 20px;
+}
+.menu .options-menu .option-login:hover {
+  color: #fff;
+  background-color: rgba(175, 146, 194, 0.5);
+  border: 2px #fff solid;
 }
 
 .c-home {
-  background-image: url("https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/bg-mob-pele.png");
-  min-height: 100vh;
-  position: relative;
+  height: 82vh;
+  display: flex;
   justify-content: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  position: relative;
+  align-items: end;
 }
-@media (min-width: 1200px) {
-  .c-home {
-    background-image: url("https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/bg-desk-pele.png");
-  }
-}
-.c-home .home-text {
-  color: #FFFFFF;
-}
-.c-home .home-text_title {
-  height: 60px;
-  text-align: center;
-}
-@media (min-width: 1200px) {
-  .c-home .home-text_title {
-    min-height: 100px;
-  }
-}
-.c-home .home-text_subtitle {
-  font-size: 35px;
-  font-weight: 700;
-  padding-top: 12px;
-  padding-bottom: 24px;
-  text-align: center;
-}
-@media (min-width: 1200px) {
-  .c-home .home-text_subtitle {
-    text-align: start;
-    font-size: 30px;
-  }
-}
-.c-home .home-text_content {
-  padding-top: 16px;
-  font-size: 18px;
-  text-align: center;
-  margin-bottom: 32px;
-}
-@media (min-width: 1200px) {
-  .c-home .home-text_content {
-    padding-top: 0;
-    font-size: 20px;
-    margin-bottom: 0px;
-    padding: 0px 80px;
-  }
-}
-.c-home .icon-home {
+.c-home .home-title {
   position: absolute;
-  bottom: 20px;
-  color: #fff;
-  left: 49%;
-  font-size: 40px;
-  animation: icon-down 3s linear infinite;
+  top: 20%;
+  font-size: 160px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 5px;
+  color: rgba(175, 146, 194, 0.5);
 }
-@keyframes icon-down {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@media (min-width: 1200px) {
-  .c-home .icon-home {
-    bottom: 3%;
-    font-size: 30px;
-  }
+.c-home .home-img {
+  z-index: 2;
+  max-height: 600px;
 }
 
 .c-king {
@@ -1357,86 +1311,188 @@ p {
   text-transform: uppercase;
 }
 
-.c-vitrine {
-  background-color: #000;
-  padding: 80px 0px;
+.c-academy {
+  overflow: hidden;
+  padding: 30px 0px;
+  background-color: #AF92C2;
 }
-.c-vitrine .vitrine-title {
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 32px;
-  font-weight: 700;
-  color: #535353;
-}
-.c-vitrine #vitrine-fut .item {
-  padding-right: 16px;
-  position: relative;
-}
-.c-vitrine #vitrine-fut .item .link:hover {
-  text-decoration: none;
-}
-.c-vitrine #vitrine-fut .item .discount {
-  position: absolute;
-  right: 20px;
-  top: 5px;
-  background-color: #FFA82D;
-  font-weight: 800;
-  color: #000;
-  font-size: 12px;
-  border-radius: 20px;
-  padding: 3px 7px;
-}
-.c-vitrine #vitrine-fut .item .tags {
-  margin-top: 8px;
-}
-.c-vitrine #vitrine-fut .item .tags .lancamento {
+.c-academy .academy-title {
+  color: #fff;
   text-transform: uppercase;
+  font-size: 40px;
   font-weight: 700;
-  color: #000;
-  padding: 3px 10px;
-  background-color: #535353;
-  font-size: 12px;
-  border-radius: 20px;
-  margin-right: 8px;
-}
-.c-vitrine #vitrine-fut .item .tags .lancamento:hover {
-  text-decoration: none;
-}
-.c-vitrine #vitrine-fut .item .tags .oferta {
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #000;
-  padding: 3px 10px;
-  background-color: #FFA82D;
-  font-size: 12px;
-  border-radius: 20px;
-}
-.c-vitrine #vitrine-fut .item .tags .oferta:hover {
-  text-decoration: none;
-}
-.c-vitrine #vitrine-fut .item .title {
-  font-size: 16px;
-  color: #747474;
-  font-weight: 400;
-  margin-top: 8px;
-}
-.c-vitrine #vitrine-fut .item .price .old-price {
-  text-decoration: line-through;
-  font-weight: 500;
-  font-size: 12px;
-  color: #747474;
-}
-.c-vitrine #vitrine-fut .item .price .current-price {
-  font-size: 16px;
-  font-weight: 800;
-  color: #747474;
-}
-.c-vitrine #vitrine-fut .item .price .installments {
-  color: #747474;
-  font-size: 14px;
-  margin-top: 2px;
 }
 
+.holderCircle {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  margin: 60px auto;
+  position: relative;
+}
+
+/* .holderCircle::after{
+    content:'';
+    width:500px;
+    height:500px;
+    border-radius:100%;
+    border:1px solid #000;
+    position:absolute;
+    top:0;
+} */
+.dotCircle {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 100%;
+  z-index: 20;
+}
+
+.dotCircle .itemDot {
+  display: block;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  background: transparent;
+  color: #000;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 80px;
+  font-size: 30px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.dotCircle .itemDot::after {
+  content: "";
+  width: 82px;
+  height: 82px;
+  position: absolute;
+  border-radius: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 2;
+  font-weight: 700;
+}
+
+.dotCircle .itemDot::before {
+  content: "";
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  border-radius: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 2;
+}
+
+.dotCircle .itemDot.active {
+  background: #34495e;
+  color: #fff;
+  transition: 0.5s;
+  font-weight: 800;
+}
+
+.dotCircle .itemDot .forActive {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  font-weight: 800;
+}
+
+.text {
+  font-weight: 300;
+}
+
+.dotCircle .itemDot.active .forActive {
+  display: block;
+}
+
+.holderCircle {
+  position: relative;
+  right: -30%;
+}
+
+.dotCircle .itemDot:hover::before {
+  border-color: #34495e;
+}
+
+.contentCircle {
+  border-radius: 100%;
+  color: #fff;
+  position: relative;
+}
+
+.contentCircle .CirItem {
+  color: #000;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.5s;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  margin: auto;
+}
+
+.CirItem.active {
+  z-index: 1;
+  opacity: 1;
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: start;
+  padding-bottom: 16px;
+}
+
+.content {
+  font-weight: 400;
+  text-align: start;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+  .holderCircle {
+    width: 300px;
+    height: 300px;
+    margin: 110px auto;
+  }
+  .holderCircle::after {
+    width: 100%;
+    height: 100%;
+  }
+  .dotCircle {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+}
 .c-chronology {
   background-image: url("https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/mob-cronology.png");
   min-height: 100vh;

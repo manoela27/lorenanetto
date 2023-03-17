@@ -7,433 +7,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
     <link href="assets/css/slick.css" rel="stylesheet" type="text/css">
     <link href="assets/css/supercraque.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+        <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 
     <title>Super Craque Pelé</title>
 </head>
 
-<body class="supercraque">
-    <section class="c-home"> 
+<body class="lorena">
+    <nav class="menu">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="c-logo ">
+                <img class="logo" src="img/logo-lorena.svg">
+            </div>
+            <div class="options-menu d-flex align-items-center">
+                <a href="" class="option">Lorena <span>Netto</span></a>
+                <a href="" class="option">Psicoterapia</a>
+                <a href="" class="option">Contato</a>
+                <a href="" class="option option-login">login</span></a>
+            </div>
+        </div>
+    </nav>
+    <section class="c-home">
+        <h1 class="home-title">LOrena &nbsp; netto</h1>
+        <img class="home-img" src="img/Lorena.svg">
     </section>
-    
-    <section class="c-king">
+    <section class="c-academy">
         <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md-5">
-                    <h1 class="king-title">
-                        The king
-                    </h1>
-                    <p class="king-content">
-                        Edson Arantes do Nascimento, o Pelé, nasceu dia 23 de outubro de 1940, na cidade de Três Corações, no interior de Minas gerais. O Rei Pelé foi considerado o Atleta do Século XX. Pelé é o jogador com mais gols registrados na história do futebol, com 1.238. É o maior artilheiro da história da Seleção Brasileira. E foi considerado vencedor de sete Bolas de Ouro, em uma revisão feita pela revista France Football O Rei Pelé faleceu no 29 de dezembro de 2022, aos 82 anos.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <img class="king-card d-none d-md-block" src='https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/card-pele.png'>
-                    <img class="king-card d-md-none" src='https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/card-pele-mob.png'>
-
-                </div>
-            </div>
-            <div class="slick-nav_king d-none d-md-block">
-                <button class="slick-prev slick-arrow" type="button"><i class="icon-arrow-left"></i></button>
-                <button class="slick-next slick-arrow" type="button"><i class="icon-arrow-right"></i></button>
-            </div>
-            <div class="slick__king">
-                <!--velocidade-->
-                <div class='item'>
-                    <div class="king-card">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="d-flex align-items-center ">
-                                <img class="king-box-icon" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/emojis/run.svg">
-                                <h1 class="king-box-title">velocidade</h1>
-                            </div>
-                            <div class="circle">
-                                <span class="circle-number">92</span>
-                            </div>
-                        </div>
-                        <p class="king-box-content">
-                            é era um atleta perfeito. Fisicamente sempre foi à frente do seu tempo. Tanto é que muitos dos gols que o Rei fez foi ganhando dos zagueiros na velocidade. Então, isso também deixava ele acima dos rivais.
-                        </p>
-                    </div>
-                </div>
-                <!--chute-->
-                <div class='item'>
-                    <div class="king-card">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="d-flex align-items-center">
-                                <img class="king-box-icon" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/emojis/kick.svg">
-                                <h1 class="king-box-title">chute</h1>
-                            </div>
-                            <div class="circle">
-                                <span class="circle-number">92</span>
-                            </div>
-                        </div>
-                        <p class="king-box-content">
-                            Esse atributo não dá nem pra falar. O Rei Pelé é o cara que fazia gols de todos os jeitos possíveis. Ótimo finalizador, Pelé fez gol de perna direita, esquerda, cabeça... Essa, os números dizem por si só.
-                        </p>
-                    </div>
-                </div>
-                <!--passe-->
-                <div class='item'>
-                    <div class="king-card">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="d-flex align-items-center">
-                                <img class="king-box-icon" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/emojis/pass.svg">
-                                <h1 class="king-box-title">passe</h1>
-                            </div>
-                            <div class="circle">
-                                <span class="circle-number">92</span>
-                            </div>
-                        </div>
-                        <p class="king-box-content">
-                            Pelé era o Ponta de Lança clássico. Jogava próximo dos centroavantes, aproveitando as jogadas de pivô do camisa 9. Como, na maioria das vezes, era o Rei que finalizava, o passe não era tanto sua principal característica.
-                        </p>
-                    </div>
-                </div>
-                <!--dribble-->
-                <div class='item'>
-                    <div class="king-card">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="d-flex align-items-center">
-                                <img class="king-box-icon" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/emojis/dribble.svg">
-                                <h1 class="king-box-title">dribble</h1>
-                            </div>
-                            <div class="circle">
-                                <span class="circle-number">92</span>
-                            </div>
-                        </div>
-                        <p class="king-box-content">
-                            Pelé era um driblador nato, mesmo que não seja tão lembrado por isso, mas um vídeo que circulou nas redes sociais recentemente mostra que ele foi pioneiro de dribles que a maioria dos craques do futebol atual fazem.
-                        </p>
-                    </div>
-                </div>
-                <!--fisico-->
-                <div class='item'>
-                    <div class="king-card">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="d-flex align-items-center">
-                                <img class="king-box-icon" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/emojis/physicist.svg">
-                                <h1 class="king-box-title">fisico</h1>
-                            </div>
-                            <div class="circle">
-                                <span class="circle-number">92</span>
-                            </div>
-                        </div>
-                        <p class="king-box-content">
-                            Essa dispensa apresentações. Pelé, em 1970, fez testes de força e impulsão antes da Copa do México. O Rei era tão absurdo, que os números dele só foram superados por atleta de futebol em 2000. Isso aí, fisicamente Pelé estava exatamente 30 anos à frente.
-                        </p>
-                    </div>
-                </div> 
-                <!--defesa-->
-                <div class='item'>
-                    <div class="king-card">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="d-flex align-items-center">
-                                <img class="king-box-icon" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/emojis/defense.svg">
-                                <h1 class="king-box-title">defesa</h1>
-                            </div>
-                            <div class="circle">
-                                <span class="circle-number">92</span>
-                            </div>
-                        </div>
-                        <p class="king-box-content">
-                            Pelé merece uma nota alta neste quesito, já que era um baita de um goleiro. Em Bauru, ainda na infância, chegou a ser obrigado a jogar no gol, pois era muito superior aos adversários de linha.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="c-details">
-        <div class="slick__details">
-            <div class="item">
-                <div class="card-details">
-                    <h1 class="details_title">Único jogador</h1>
-                    <h2 class="details_bottom-title">Tricampeão do mundo</h2>
-                </div>
-                
-            </div>
-
-            <div class="item-img d-flex">
-                <img class="icon-king" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/icon-king.svg"> 
-            </div>
-
-            <div class="item">
-                <div class="card-details">
-                    <h1 class="details_title">Mais jovem campeão do mundo</h1>
-                    <h2 class="details_bottom-title">17 anos e 8 meses (1958)</h2>
-                </div>
-            </div>
-
-            <div class="item-img d-flex">
-                <img class="icon-king" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/icon-king.svg"> 
-            </div>
-
-            <div class="item">
-                <div class="card-details">
-                    <h1 class="details_title">1.283 gols</h1>
-                    <h2 class="details_bottom-title">em 1.363 jogos</h2>
-                </div>
-                
-            </div>
-
-            <div class="item-img d-flex">
-                <img class="icon-king" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/icon-king.svg"> 
-            </div>
-
-            <div class="item">
-                <div class="card-details">
-                    <h1 class="details_title">Assistências: 363 passes</h1>
-                    <h2 class="details_bottom-title">para gols em 762 jogos oficiais</h2>
-                </div>
-                
-            </div>
-
-            <div class="item-img d-flex">
-                <img class="icon-king" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/icon-king.svg"> 
-            </div>
-
-            <div class="item">
-                <div class="card-details">
-                    <h1 class="details_title">jogador com mais gols em ano:</h1>
-                    <h2 class="details_bottom-title">127 gols pelo santos em 1959</h2>
-                </div>
-                
-            </div>
-
-            <div class="item-img d-flex">
-                <img class="icon-king" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/icon-king.svg"> 
-            </div>
-        </div>
-    </section>
-    
-    <div class="block vitrine c-vitrine">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="vitrine-title">Destaques do Rei</h2>
-                    <div id="vitrine-fut"></div>
-                </div>
-            </div>
-        </div>
-    </div> 
-
-    <section class="c-chronology">
-        <div class="container ">
-            <!--1958-->
-            <div class="row box-chronology justify-content-between">
-                <div class="col-md-6">
-                    <img class="chronology-img" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/chronology/1958.png">
-                </div>
-                <div class="chronology-time"><span>1958</span></div>
-                <div class="col-md-5 col-content">
-                    <p class="chronology-content">
-                        Em 1958 foi convocado para a Copa do Mundo da Suécia com apenas 17 anos. Ganhou a condição de titular durante o torneio. Marcou seis gols logo na primeira Copa e conduziu o Brasil ao primeiro título mundial, marcando dois gols na final contra os donos da casa.
-                    </p>
-                </div>
-            </div>
-            <!--1962-->
-            <div class="row box-chronology justify-content-between flex-column-reverse flex-md-row">
-                <div class="col-md-4 col-content">
-                    <p class="chronology-content">
-                        No Santos foi bicampeão da Copa Libertadores e do Mundo nos anos de 1962 e 1963. Naquela época o torneio continental não era tão importante quanto é hoje. Porém, o esquadrão santista, para muitos o maior time da história do futebol, sagrou-se campeão em cima de Benfica e Milan nos mundiais.
-                    </p>
-                </div>
-                <div class="col-md-2 chronology-time"><span>1962</span></div>
-                
-                <div class="col-md-6">
-                    <img class="chronology-img" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele//chronology/1962.png">
-                </div>
-            </div>
-            <!--1966-->
-            <div class="row box-chronology justify-content-between">
-                <div class="col-md-6">
-                    <img class="chronology-img" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele//chronology/1966.png">
-                </div>
-                <div class="col-md-2 chronology-time"><span>1966</span></div>
-                <div class="col-md-5 col-content">
-                    <p class="chronology-content">
-                        Mesmo sendo campeão do mundo em 1962 pela Seleção Canarinho, Pelé se lesionou ainda na primeira fase e não conseguiu brilhar no Chile como brilhou na Suécia. O Brasil venceu o bicampeonato com Garrincha como protagonista. Já na Copa de 1966, disputada na Inglaterra, ele também sentiu uma lesão e o Brasil decepcionou. Naquela Copa, Pelé afirmou que não jogaria mais o torneio, tamanho a decepção.
-                    </p>
-                </div>
-            </div>
-            <!--1970-->
-            <div class="row box-chronology justify-content-between flex-column-reverse flex-md-row">
-                <div class="col-md-4 col-content">
-                    <p class="chronology-content">
-                        O auge do Rei foi na Copa do México, em 1970. Foi o melhor momento do Rei como jogador de futebol. Tecnicamente perfeito, fisicamente fora do normal, mentalmente equilibrado, ele foi Pelé. O Rei conduziu o timaço do Brasil rumo ao Tri. O camisa 10 chegou ao topo, com uma atuação esplendida na final, vencida por 4 a 1 pelo Brasil, contra a seleção da Itália.
-                    </p>
-                </div>
-                <div class="col-md-2 chronology-time"><span>1970</span></div>
-                <div class="col-md-6">
-                    <img class="chronology-img" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele//chronology/1970.png">
-                </div>
-                
-            </div>
-            <!--1971-->
-            <div class="row box-chronology justify-content-between">
-                <div class="col-md-6">
-                    <img class="chronology-img" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele//chronology/1971.png">
-                </div>
-                <div class="chronology-time"><span>1971</span></div>
-                <div class="col-md-5 col-content">
-                    <p class="chronology-content">
-                        Pelé anunciou a aposentadoria da Seleção Brasileira e 1971, em uma partida com o Maracanã lotado. O Rei atuou por mais três anos com a camisa do Santos, quando decidiu sair da Vila Belmiro em 1974. Contudo, em 1975, o Rei Pelé aceitou a proposta do New York Cosmos para atuar nos EUA. Jogou pelo time Novaiorquino até 1º de Outubro de 1977, quando de fato se despediu do futebol.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="c-details">
-        <div class="slick__details">
-            <div class="item">
-                <div class="card-details">
-                    <h1 class="details_title">Único jogador</h1>
-                    <h2 class="details_bottom-title">Tricampeão do mundo</h2>
-                </div>
-            </div>
-            <div class="item-img d-flex">
-                <img class="icon-king" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/icon-king.svg"> 
-            </div>
+            <h1 class="academy-title">
+                Formação
+            </h1>
+            <div class="d-flex row">
+                <div class="contentCircle col-6">
             
-            <div class="item">
-                <div class="card-details">
-                    <h1 class="details_title">Mais jovem campeão do mundo</h1>
-                    <h2 class="details_bottom-title">17 anos e 8 meses (1958)</h2>
+                    <div class="CirItem active CirItem1 ">
+                        <h1 class="title">he standard Lorem Ipsum passage, used since the 1500s</h1>
+                        <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                    </div>
+                    <div class="CirItem CirItem2 " >
+                        <h1 class="title" >he standard Lorem Ipsum passage, used since the 1500s</h1>
+                        <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                    </div>
+                    <div class="CirItem CirItem3 ">
+                        <h1 class="title">he standard Lorem Ipsum passage, used since the 1500s</h1>
+                        <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                    </div>
+                    <div class="CirItem CirItem4 ">
+                        <h1 class="title">he standard Lorem Ipsum passage, used since the 1500s</h1>
+                        <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                    </div>
+                    <div class="CirItem CirItem5">
+                        <h1 class="title">he standard Lorem Ipsum passage, used since the 1500s</h1>
+                        <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                    </div>
+                    <div class="CirItem CirItem6">
+                        <h1 class="title">he standard Lorem Ipsum passage, used since the 1500s</h1>
+                        <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                    </div>
+                    <div class="CirItem CirItem7">
+                        <h1 class="title">he standard Lorem Ipsum passage, used since the 1500s</h1>
+                        <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                    </div>
+                    <div class="CirItem CirItem8">
+                        <h1 class="title">he standard Lorem Ipsum passage, used since the 1500s</h1>
+                        <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                    </div>
+                    <div class="CirItem CirItem9">
+                        <h1 class="title">he standard Lorem Ipsum passage, used since the 1500s</h1>
+                        <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                    </div>
+                    <div class="CirItem CirItem10 ">
+                        <h1 class="title">he standard Lorem Ipsum passage, used since the 1500s</h1>
+                        <p class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                    </div>
                 </div>
-            </div>
-
-            <div class="item-img d-flex">
-                <img class="icon-king" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/icon-king.svg"> 
-            </div>
-
-            <div class="item">
-                <div class="card-details">
-                    <h1 class="details_title">1.283 gols</h1>
-                    <h2 class="details_bottom-title">em 1.363 jogos</h2>
+                <div class="holderCircle col-6">
+            
+                    <div class="dotCircle">
+                        <span class="itemDot active itemDot1" data-tab="1">
+                            <span class="text">2021</span>
+                            <span class="forActive"></span>
+                        </span>
+                        <span class="itemDot itemDot2" data-tab="2">
+                            <span class="text">2018</span>
+                            <span class="forActive"></span>
+                        </span>
+                        <span class="itemDot itemDot3" data-tab="3">
+                            <span class="text">2017</span>
+                            <span class="forActive"></span>
+                        </span>
+                        <span class="itemDot itemDot4" data-tab="4">
+                            <span class="text">2016</span>
+                            <span class="forActive">2021</span>
+                        </span>
+                        <span class="itemDot itemDot5" data-tab="5">
+                            <span class="text">2014</span>
+                            <span class="forActive"></span>
+                        </span>
+                        <span class="itemDot itemDot6" data-tab="6">
+                            <span class="text">2013</span>
+                            <span class="forActive"></span>
+                        </span>
+                        <span class="itemDot itemDot7" data-tab="7">
+                            <span class="text">2012</span>
+                            <span class="forActive"></span>
+                        </span>
+                        <span class="itemDot itemDot8" data-tab="8">
+                            <span class="text">2011</span>
+                            <span class="forActive"></span>
+                        </span>
+                        <span class="itemDot itemDot9" data-tab="9">
+                            <span class="text">2009</span>
+                            <span class="text forActive"></span>
+                        </span>
+                        <span class="itemDot itemDot10" data-tab="10">
+                            <span class="text">2008</span>
+                            <span class="text forActive"></span>
+                        </span>
+                    </div>
+            
+                    
+            
                 </div>
-            </div>
-
-            <div class="item-img d-flex">
-                <img class="icon-king" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/icon-king.svg"> 
-            </div>
-
-            <div class="item">
-                <div class="card-details">
-                    <h1 class="details_title">Assistências: 363 passes</h1>
-                    <h2 class="details_bottom-title">para gols em 762 jogos oficiais</h2>
-                </div>
-            </div>
-
-            <div class="item-img d-flex">
-                <img class="icon-king" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/icon-king.svg"> 
-            </div>
-
-            <div class="item">
-                <div class="card-details">
-                    <h1 class="details_title">jogador com mais gols em ano:</h1>
-                    <h2 class="details_bottom-title">127 gols pelo santos em 1959</h2>
-                </div>
-            </div>
-
-            <div class="item-img d-flex">
-                <img class="icon-king" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/icon-king.svg"> 
-            </div>
-
+            </div>             
         </div>
     </section>
-    <section class="c-curiosity">
-        <div class="container position-relative"> 
-            <div class="row d-flex align-items-center">
-                <div class="col-md-5 p-0 col-content-curiosity">
-                    <div class="curiosity-box">
-                        <h2 class="curiosity-toptitle">curiosidades </h2>
-                        <h1 class="curiosity-title">o pelé é pop</h1>
-                    </div>
-                    <div class="slick-curiosity_text d-none d-md-block">
-                        <div class='item'>
-                            <div class="card-curiosity-text">
-                                <p class="curiosity-card-content">
-                                    Craque dentro dos campos, Pelé também brilhou nas telinhas e nas telonas. O Rei fez várias “pontinhas” como ator de novelas e até filme de Hollywood ele já participou. Pelé participou de 5 novelas. Entre elas, uma participação em "O Clone", sucesso do início dos anos 2000.
-                                </p>
-                            </div>
-                        </div>
-                        <div class='item'>
-                            <div class="card-curiosity-text">
-                                <p class="curiosity-card-content">
-                                    Já nas telonas o Rei atuou em produções brasileiras e Norte Americanas. Foram 8 películas estreladas pelo atleta do século XX. Ele participou de filmes brasileiros como O Barão Otelo no Barato dos Milhões (1971), A Marcha (1972), Os Trombadinhas (1979), Pedro Mico (1985), Os Trapalhões e o Rei do Futebol (1986), Solidão, Uma Linda História de Amor (1989).
-                                </p>
-                            </div>
-                        </div>
-                        <div class='item'>
-                            <div class="card-curiosity-text">
-                                <p class="curiosity-card-content">
-                                    Em produções internacionais, Pelé fez muito sucesso atuando ao lado de Sylvester Stallone, Michael Caine e Max Von Sydow no filme Fuga Para a Vitória (Victory, 1981). Além dessa produção, ele atuou em outras produções A Vitória do Mais Fraco (A Minor Miracle, 1981), Hot Shot (1986), Mike Bassett: O Treinador Inglês (Mike Bassett; England Manager, 2001) e Pelé: O Nascimento de Uma Lenda (Pelé: Birth of a Legend, 2016).
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-7 p-0">
-                    <div class="slick-curiosity_img d-none d-md-block">
-                        <div class="item">
-                            <img class="img-box" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/curiosity/curiosity-one.png">
-                        </div>
-                        <div class="item">
-                            <img class="img-box" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/curiosity/curiosity-two.png">
-                        </div>
-                        <div class="item">
-                            <img class="img-box" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/curiosity/curiosity-three.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="slick__mob_curiosity d-md-none">
-                <div class="item">
-                    <div class="img-mob">
-                        <img class="w-100" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/curiosity/curiosity-one.png">
-                        <div class="box-text">
-                            <p class="text-curiosity-mob">
-                                Craque dentro dos campos, Pelé também brilhou nas telinhas e nas telonas. O Rei fez várias “pontinhas” como ator de novelas e até filme de Hollywood ele já participou. Pelé participou de 5 novelas. Entre elas, uma participação em "O Clone", sucesso do início dos anos 2000.
-                            </p>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="item">
-                    <div class="img-mob">
-                        <img class="w-100" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/curiosity/curiosity-two.png">
-                        <div class="box-text">
-                            <p class="text-curiosity-mob">
-                                Já nas telonas o Rei atuou em produções brasileiras e Norte Americanas. Foram 8 películas estreladas pelo atleta do século XX. Ele participou de filmes brasileiros como O Barão Otelo no Barato dos Milhões (1971), A Marcha (1972), Os Trombadinhas (1979), Pedro Mico (1985), Os Trapalhões e o Rei do Futebol (1986), Solidão, Uma Linda História de Amor (1989).
-                            </p>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="item">
-                    <div class="img-mob">
-                        <img class="w-100" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/curiosity/curiosity-three.png">
-                        <div class="box-text">
-                            <p class="text-curiosity-mob">
-                                Em produções internacionais, Pelé fez muito sucesso atuando ao lado de Sylvester Stallone, Michael Caine e Max Von Sydow no filme Fuga Para a Vitória (Victory, 1981). Além dessa produção, ele atuou em outras produções A Vitória do Mais Fraco (A Minor Miracle, 1981), Hot Shot (1986), Mike Bassett: O Treinador Inglês (Mike Bassett; England Manager, 2001) e Pelé: O Nascimento de Uma Lenda (Pelé: Birth of a Legend, 2016).
-                            </p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="curiosity-nav d-none d-md-block">
-                <button class="slick-prev slick-arrow" type="button"><i class="icon-arrow-left"></i></button>
-                <button class="slick-next slick-arrow" type="button"><i class="icon-arrow-right"></i></button>
-            </div>
-        </div>
-    </section>
+    
+
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"
@@ -441,11 +144,29 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
     <script src="assets/js/vendor/slick/slick.min.js"></script>
     <script src="assets/js/modules/page.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="js/circle.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 
 </html>

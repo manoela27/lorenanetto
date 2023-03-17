@@ -1,0 +1,33 @@
+.menu{
+    padding: 30px 0px;
+    .c-logo{
+        .logo{
+            height: 80px;
+        }
+    }
+    .options-menu{
+        .option{
+            color: #000;
+            text-decoration: none;
+            margin: 0px 16px;
+            font-size: 18px;
+            font-weight: 600;
+            text-transform:uppercase;
+
+            span{
+                color: rgba(175,146,194, 0.5);
+            }
+            &-login{
+                padding: 5px 50px;
+                border: 2px rgba(175,146,194, 0.5) solid;
+                border-radius: 20px;
+                
+                &:hover{
+                    color: #fff;
+                    background-color:rgba(175,146,194, 0.5) ;
+                    border: 2px #fff solid;
+                }
+            }
+        }
+    }
+}

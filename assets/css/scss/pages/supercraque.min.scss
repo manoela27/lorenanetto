@@ -18,10 +18,12 @@ $vitrine-gray: #747474;
 
 @import "../components/variables";
 
+@import "supercraque/topo";
 @import "supercraque/home";
+
 @import "supercraque/king";
 @import "supercraque/details";
-@import "supercraque/vitrine";
+@import "supercraque/circle";
 @import "supercraque/chronology";
 @import "supercraque/curiosity";
 @import "../fonts/icons-font";
