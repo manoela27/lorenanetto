@@ -1,0 +1,92 @@
+.c-vitrine{
+    background-color:#000 ;
+    padding: 80px 0px;
+
+    .vitrine{
+        &-title{
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 32px;
+            font-weight: 700;
+            color: #535353;
+        }
+    }
+    #vitrine-fut{
+        .item{
+            padding-right: 16px;
+            position: relative;
+            .link{
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+
+            .discount{
+                position: absolute;
+                right: 20px;
+                top: 5px;
+                background-color:#FFA82D ;
+                font-weight: 800;
+                color: #000;
+                font-size: 12px;
+                border-radius: 20px;
+                padding: 3px 7px;
+            }
+            .tags{
+                margin-top: 8px;
+                .lancamento{
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    color: #000;
+                    padding: 3px 10px;
+                    background-color: #535353;
+                    font-size: 12px;
+                    border-radius: 20px;
+                    margin-right: 8px;
+
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+                .oferta{
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    color: #000;
+                    padding: 3px 10px;
+                    background-color: #FFA82D;
+                    font-size: 12px;
+                    border-radius: 20px;
+
+                    &:hover{
+                        text-decoration: none;
+                    }
+                    
+                }
+            }
+            .title{
+                font-size: 16px;
+                color: #747474;
+                font-weight: 400;
+                margin-top: 8px;
+            }
+            .price{
+                .old-price{
+                    text-decoration: line-through;
+                    font-weight: 500;
+                    font-size: 12px;
+                    color: #747474;
+                }
+                .current-price{
+                    font-size: 16px;
+                    font-weight: 800;
+                    color: #747474;
+                }
+                .installments{
+                    color: #747474;
+                    font-size: 14px;
+                    margin-top: 2px;
+                }
+            }
+        }
+    }
+}

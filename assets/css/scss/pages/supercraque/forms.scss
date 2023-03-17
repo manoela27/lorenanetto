@@ -1,0 +1,67 @@
+
+@mixin md{
+    @media (min-width: 1200px) { @content; }
+}
+
+.c-forms{
+    padding: 20px 0px;
+    .box-content{
+        position: relative;
+        &::before{
+            position: absolute;
+            right: 50%;
+            bottom: 0%;
+            transform: translateX(50%);
+            background-color: #C3C3C3;
+            height: 1px;
+            width: 50%;
+            content: '';
+
+            @include md{
+                transform: translateY(50%);
+                bottom: 50%;
+                right: 0%;
+                height: 50%;
+                width: 1px;
+            }
+        }
+    }
+    .shield{
+        width: 80px;
+        height: auto;
+    }
+    .forms-content{
+        padding-left: 32px;
+    }
+
+    .form-group{
+        margin-top: 8px;
+        @include md{
+            margin-top: 0px;
+            margin-left: 8px;
+        }
+
+        &:first-child{
+            margin-left: 0px;
+        }
+    }
+    .box-politica{
+        margin-top: 8px;
+
+        .btn-news{
+            background-color: #C3281E;
+            border: none;
+            color: #FFF;
+            padding: 10px 10px;
+            font-size: 16px;
+            border-radius: 5px;
+
+            &-send{
+                font-weight: 600;
+                padding: 10px 30px;
+                margin-right: 2px;
+                font-size: 16px;
+            }
+        }
+    }
+}

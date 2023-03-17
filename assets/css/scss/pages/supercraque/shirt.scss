@@ -1,0 +1,174 @@
+@mixin md{
+    @media (min-width: 1200px) { @content; }
+}
+.c-shirt{
+    padding: 60px 20px 20px 20px;
+    background-color: #ECECEC;
+
+    @include md{
+        padding: 60px 0px;
+    }
+
+  .box-title{
+    .shirt{
+        &-text{
+            color: #000;
+            margin-bottom: 0;
+
+            &_toptitle{
+                font-weight: 700;
+                font-size: 22px;
+                color: #C3281E;
+                text-transform: uppercase;
+            }
+            &_title{
+                font-weight: 800;
+                font-size: 45px;
+                text-align: center;
+
+                @include md{
+                    text-align: start;
+                }
+            }
+        }
+    }
+  }
+  .shirt{
+    &__slick{
+        
+        .item{
+            padding: 30px 0px;
+
+            @include md{
+                padding: 80px 0px;
+            }
+        }
+        .content-shirt{
+            position: relative;
+            top: -50px;
+        }
+        .box-number{
+            position: relative;
+            display: flex;
+            justify-content: center;
+        
+            @include md{
+                transform: rotate(270deg);
+                right: 35%;
+                top: -80%;
+                display: block;
+            }
+        
+            .number{
+                color: #C6C6C6;
+                font-size: 120px;
+                font-weight: 800;
+                text-align: center;
+                
+                @include md{
+                    position: absolute;
+                    font-size: 150px;
+                }
+            }
+        }
+        .box-shirt{
+            position: relative;
+            left: 0%;
+            width: 100%;
+
+            @include md{
+                left: 40%;
+            }
+            .shirt-img{
+                max-height: 400px;  
+            }
+        }
+        .slick{
+            &-text{
+                &_title{
+                    font-weight: 800; 
+                    color: #000;
+                    font-size: 100px;
+                    padding-bottom: 8px;
+                    display: none;
+                    text-align: center;
+                    @include md{
+                        text-align: start;
+                        padding-bottom: 16px;
+                        font-size: 60px;
+                        display: block;
+                    }
+                }
+                &_content{
+                    font-size: 18px;
+                    padding-bottom: 16px;
+
+                    @include md{
+                        padding-bottom: 64px;
+                    }
+                }
+            }
+            &-target{
+                text-decoration: none;
+                .tag{
+                    width: 60px;
+                    height: 60px;
+                    position: absolute;
+                    left: -20px;
+                    display: none;
+
+                    @include md{
+                        display: block;
+                    }
+                }
+                .text{
+                    background-color: #231F20;
+                    padding: 8px 20px;
+                    color: #fff;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: 600;                    
+                    font-size: 18px;
+                    border-radius: 10px;
+                    box-shadow: rgba(0,0,0, 0.1) 0px 4px;
+
+                    @include md{
+                        padding: 8px 20px 8px 60px ;
+                    }
+                }
+            }
+            
+        }
+    }
+  }
+  .slick-nav_shirt{
+    justify-content: space-between;
+    color: #FFF;
+    padding: 0px 0px;
+    @include md{
+        justify-content: center;
+    }
+
+    button{
+        background-color: transparent;
+        border: none;
+        padding-top: 16px;
+
+        i{
+            font-size: 30px;
+            color: #000000;
+            font-weight: 300;
+        }
+    }
+    .current{
+        font-weight: 800;
+        font-size: 40px;
+        color: #C3281E;
+    }
+    .total{
+        font-size: 25px;
+        color: #000000;
+        font-weight: 600;
+    }
+}
+}

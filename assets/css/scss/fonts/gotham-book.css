@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("fonts/gotham/Gotham-Book.eot?v2"); /* IE9 Compat Modes */
+  src: url("fonts/gotham/Gotham-Book.eot?v2#iefix") format("embedded-opentype"), url("fonts/gotham/Gotham-Book.woff2?v2") format("woff2"), url("fonts/gotham/Gotham-Book.woff?v2") format("woff"), url("fonts/gotham/Gotham-Book.ttf?v2") format("truetype"), url("fonts/gotham/Gotham-Book.svg?v2#svgGotham") format("svg"); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}/*# sourceMappingURL=gotham-book.css.map */

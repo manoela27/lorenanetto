@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("fonts/oswald/Oswald-BoldItalic.eot"); /* IE9 Compat Modes */
+  src: url("fonts/oswald/Oswald-BoldItalic.eot#iefix") format("embedded-opentype"), url("fonts/oswald/Oswald-BoldItalic.woff2") format("woff2"), url("fonts/oswald/Oswald-BoldItalic.woff") format("woff"), url("fonts/oswald/Oswald-BoldItalic.ttf") format("truetype"), url("fonts/oswald/Oswald-BoldItalic.svg#svgGotham") format("svg"); /* Legacy iOS */
+  font-weight: bold;
+  font-style: italic;
+}/*# sourceMappingURL=oswald-bold-italic.css.map */

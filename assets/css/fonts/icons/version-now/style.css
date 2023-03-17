@@ -1,0 +1,345 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?49h1ga');
+  src:  url('fonts/icomoon.eot?49h1ga#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?49h1ga') format('truetype'),
+    url('fonts/icomoon.woff?49h1ga') format('woff'),
+    url('fonts/icomoon.svg?49h1ga#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-whatsapp:before {
+  content: "\e963";
+}
+.icon-tiktok1:before {
+  content: "\e968";
+}
+.icon-atendimento:before {
+  content: "\e900";
+}
+.icon-cart:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
+.icon-instagram:before {
+  content: "\e903";
+}
+.icon-trash:before {
+  content: "\e904";
+}
+.icon-search:before {
+  content: "\e905";
+}
+.icon-add:before {
+  content: "\e906";
+}
+.icon-remove:before {
+  content: "\e907";
+}
+.icon-logo-fut:before {
+  content: "\e908";
+}
+.icon-menu:before {
+  content: "\e909";
+}
+.icon-close:before {
+  content: "\e90a";
+}
+.icon-arrow-down:before {
+  content: "\e90b";
+}
+.icon-arrow-up:before {
+  content: "\e90c";
+}
+.icon-arrow-left:before {
+  content: "\e90d";
+}
+.icon-arrow-right:before {
+  content: "\e90e";
+}
+.icon-twitter:before {
+  content: "\e90f";
+}
+.icon-user:before {
+  content: "\e910";
+}
+.icon-youtube:before {
+  content: "\e911";
+}
+.icon-dropdown:before {
+  content: "\e912";
+}
+.icon-futcreator:before {
+  content: "\e913";
+}
+.icon-g360:before {
+  content: "\e914";
+}
+.icon-arrow-down-fill:before {
+  content: "\e915";
+}
+.icon-playstore:before {
+  content: "\e962";
+}
+.icon-apple:before {
+  content: "\e964";
+}
+.icon-cadastre-se:before {
+  content: "\e965";
+}
+.icon-facebook1:before {
+  content: "\e966";
+}
+.icon-o-neill:before {
+  content: "\e95f";
+}
+.icon-onbongo:before {
+  content: "\e960";
+}
+.icon-hurley:before {
+  content: "\e961";
+}
+.icon-coca-cola-2:before {
+  content: "\e967";
+}
+.icon-super-bolla:before {
+  content: "\e944";
+}
+.icon-link-inter:before {
+  content: "\e959";
+}
+.icon-fut:before {
+  content: "\e954";
+}
+.icon-headset:before {
+  content: "\e917";
+}
+.icon-chat:before {
+  content: "\e918";
+}
+.icon-email:before {
+  content: "\e919";
+}
+.icon-frete:before {
+  content: "\e94d";
+}
+.icon-original:before {
+  content: "\e955";
+}
+.icon-pagamento:before {
+  content: "\e956";
+}
+.icon-porcentagem:before {
+  content: "\e957";
+}
+.icon-troca:before {
+  content: "\e958";
+}
+.icon-ruler:before {
+  content: "\e951";
+}
+.icon-braziline:before {
+  content: "\e952";
+}
+.icon-retromania:before {
+  content: "\e953";
+}
+.icon-play:before {
+  content: "\e94f";
+}
+.icon-cart-add:before {
+  content: "\e950";
+}
+.icon-mitchell-ness:before {
+  content: "\e930";
+}
+.icon-kanxa:before {
+  content: "\e94c";
+}
+.icon-topper:before {
+  content: "\e94e";
+}
+.icon-adidas:before {
+  content: "\e916";
+}
+.icon-asics:before {
+  content: "\e91a";
+}
+.icon-coca-cola:before {
+  content: "\e91b";
+}
+.icon-dal-ponte:before {
+  content: "\e91c";
+}
+.icon-diadora:before {
+  content: "\e91d";
+}
+.icon-dryworld:before {
+  content: "\e91e";
+}
+.icon-ecko:before {
+  content: "\e91f";
+}
+.icon-errea:before {
+  content: "\e920";
+}
+.icon-everlast:before {
+  content: "\e921";
+}
+.icon-fatal:before {
+  content: "\e922";
+}
+.icon-fila:before {
+  content: "\e923";
+}
+.icon-hang-loose:before {
+  content: "\e924";
+}
+.icon-hd:before {
+  content: "\e925";
+}
+.icon-icone-sports:before {
+  content: "\e926";
+}
+.icon-joma:before {
+  content: "\e927";
+}
+.icon-kagiva:before {
+  content: "\e928";
+}
+.icon-karilu:before {
+  content: "\e929";
+}
+.icon-kelme:before {
+  content: "\e92a";
+}
+.icon-kempa:before {
+  content: "\e92b";
+}
+.icon-kickball:before {
+  content: "\e92c";
+}
+.icon-live-up:before {
+  content: "\e92d";
+}
+.icon-lotto:before {
+  content: "\e92e";
+}
+.icon-lupo:before {
+  content: "\e92f";
+}
+.icon-mizuno:before {
+  content: "\e931";
+}
+.icon-muvin:before {
+  content: "\e932";
+}
+.icon-new-balance:before {
+  content: "\e933";
+}
+.icon-new-era:before {
+  content: "\e934";
+}
+.icon-numer:before {
+  content: "\e935";
+}
+.icon-olympikus:before {
+  content: "\e936";
+}
+.icon-oxn:before {
+  content: "\e937";
+}
+.icon-penalty:before {
+  content: "\e938";
+}
+.icon-poker:before {
+  content: "\e939";
+}
+.icon-puma:before {
+  content: "\e93a";
+}
+.icon-reebok:before {
+  content: "\e93b";
+}
+.icon-kappa:before {
+  content: "\e93c";
+}
+.icon-mormaii:before {
+  content: "\e93d";
+}
+.icon-reusch:before {
+  content: "\e93e";
+}
+.icon-rinat:before {
+  content: "\e93f";
+}
+.icon-spalding:before {
+  content: "\e940";
+}
+.icon-speedo:before {
+  content: "\e941";
+}
+.icon-spr:before {
+  content: "\e942";
+}
+.icon-starter:before {
+  content: "\e943";
+}
+.icon-three-stars:before {
+  content: "\e945";
+}
+.icon-tm7:before {
+  content: "\e946";
+}
+.icon-uhlsport:before {
+  content: "\e947";
+}
+.icon-umbro:before {
+  content: "\e948";
+}
+.icon-under-armour:before {
+  content: "\e949";
+}
+.icon-volcom:before {
+  content: "\e94a";
+}
+.icon-wilson:before {
+  content: "\e94b";
+}
+.icon-lock:before {
+  content: "\f023";
+}
+.icon-nicoboco:before {
+  content: "\e95a";
+}
+.icon-converse:before {
+  content: "\e95b";
+}
+.icon-placar:before {
+  content: "\e95c";
+}
+.icon-oakley:before {
+  content: "\e95d";
+}
+.icon-dray:before {
+  content: "\e95e";
+}

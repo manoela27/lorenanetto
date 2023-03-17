@@ -1,0 +1,35 @@
+$blue-light: #8C96A9;
+$blue-dark: #192C53;
+$blue-dark-50: rgba(25, 44, 83, .5);
+$color-text-primary: #9C7A47;
+$gray-lightest: #F2F2F2;
+$gray-lighter: #F4F5F8;
+$gray-light: #DFE1E5;
+$gray-medium: #C3C3C3;
+$gray: #747474;
+$gray-dark: #808094;
+$gray-darker: #5F697C;
+$gray-darkest: #424242;
+
+$green-lime: #00DF5E;
+
+$gold: #CF9F5B;
+
+$footer-border-color: #52617E;
+
+$fw-light: 300;
+$fw-medium: 500;
+$fw-black: 900;
+
+/** PAGE PALMEIRAS **/
+$green-light: #005F31;
+$green-dark: #00351B;
+$white: #FFFFFF;
+$golden-light: #ECC68E;
+$grey-light: #F6F8FA;
+$grey-dark: #7C7C7C;
+
+
+@mixin md{
+    @media (min-width: 1200px) { @content; }
+}

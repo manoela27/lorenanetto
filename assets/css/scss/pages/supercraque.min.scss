@@ -1,0 +1,31 @@
+
+//sass --watch assets/css/scss/pages/supercraque.min.scss:assets/css/supercraque.min.css
+
+$vitrine-blue: #192C53;
+$vitrine-gray: #747474;
+
+//@import "../_lib/progressive.css";
+
+@import "../components/reset-tray";
+
+@import "../fonts/bebas-neue";
+@import "../fonts/gotham-book";
+@import "../fonts/gotham-medium";
+@import "../fonts/gotham-bold";
+@import "../fonts/gotham-black";
+@import "../fonts/sporty";
+
+
+@import "../components/variables";
+
+@import "supercraque/home";
+@import "supercraque/king";
+@import "supercraque/details";
+@import "supercraque/vitrine";
+@import "supercraque/chronology";
+@import "supercraque/curiosity";
+@import "../fonts/icons-font";
+
+@mixin md{
+    @media (min-width: 1200px) { @content; }
+}

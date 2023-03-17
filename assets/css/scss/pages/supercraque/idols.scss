@@ -1,0 +1,338 @@
+.c-idols{
+    position: relative;
+    background-color: #0E0E0E;
+    .slick__idols{
+        
+            .item{
+                padding: 60px 0px 0px 0px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-color: #222222;
+
+                @include md{
+                    padding: 60px 20px;
+                    min-height: 700px;
+                }
+    
+                &_1{
+                    background-image: linear-gradient(0deg, #0D0D0D, rgba(34, 34, 34, 0) 73.15%), url('https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/almanaquevasco/idols/Dinamite-Fundo.png');
+                    
+                }
+                &_2{
+                    background-image: linear-gradient(0deg, #0D0D0D, rgba(34, 34, 34, 0) 73.15%), url('https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/almanaquevasco/idols/romario-fundo.png');
+                    
+                }
+                &_3{
+                    background-image: linear-gradient(0deg, #0D0D0D, rgba(34, 34, 34, 0) 73.15%), url('https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/almanaquevasco/idols/edmundo-fundo.png');
+                }
+                &_4{
+                    background-image: linear-gradient(0deg, #0D0D0D, rgba(34, 34, 34, 0) 73.15%), url('https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/almanaquevasco/idols/menezesfundo.png');
+                }
+                &_5{
+                    background-image: linear-gradient(0deg, #0D0D0D, rgba(34, 34, 34, 0) 73.15%), url('https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/almanaquevasco/idols/pernambucano-fundo.png');
+                }
+
+                @include md{
+                    padding: 60px 0px;
+                }
+            }
+            .col-img{
+                position: relative;
+                &_1{
+                    .img-idols{
+                        max-height: 350px;
+                        position: relative;
+                        right: -1%;
+                        bottom: 6%;
+                        @include md{
+                            position: absolute;
+                            max-height: 600px;
+                            bottom: -49.5%;
+                            right: 0;
+                        }
+                    }
+                }
+                &_2{
+                    .img-idols{
+                        max-height: 330px;
+                        position: relative;
+                        bottom: 10%;
+                        right: -7%;
+                    
+                        @include md{
+                            position: absolute;
+                            max-height: 530px;
+                            bottom: -35%;
+                            right: -5%;
+                        }
+                    }
+                }
+                &_3{
+                    .img-idols{
+                        max-height: 350px;
+                        position: relative;
+                        bottom: 10%;
+                        right: -1%;
+                    @include md{
+                            position: absolute;
+                            max-height: 530px;
+                            bottom: -41%;
+                            right: -5%;
+                        }
+                    }
+                }
+                &_4{
+                    .img-idols{
+                        max-height: 350px;
+                        position: relative;
+                        bottom: 7%;
+                        right: 19%;
+                        @include md{
+                            position: absolute;
+                            max-height: 600px;
+                            bottom: -41%;
+                        }
+                    }
+                }
+                &_5{
+                    .img-idols{
+                        max-height: 370px;
+                        bottom: 3%;
+                        position: relative;
+                        right: 5%;
+                        @include md{
+                            position: absolute;
+                            max-height: 600px;
+                            bottom: -20%;
+                            right: 0%;
+                        }
+                    }
+                }
+            }
+            .col-content{
+                position: relative;
+                top: -155px;
+                padding: 0;
+
+                @include md{
+                    top: 0;
+                    padding-right: calc(var(--bs-gutter-x) * .5);
+                    padding-left: calc(var(--bs-gutter-x) * .5);
+                }
+                .container-skill{
+                    padding: 0px 16px;
+                    padding-bottom: 16px;
+                    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 77.08%);
+                    @include md{
+                        padding: 0px;
+                        padding-bottom: 0;
+                        background: transparent;
+                    }
+                }
+            }
+        .idols{
+            &-text{
+                &_toptitle{
+                    color:#C3281E ;
+                    font-size: 25px;
+                    padding-bottom: 32px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+                &_content{
+                    color: #fff;
+                    font-size: 18px;
+                    margin-top: 32px;
+                    font-weight: 300;
+                    margin-bottom: 32px;
+                    display: none;
+                    @include md{
+                        display: block;
+                    }
+                }
+                &-winner{
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 300;
+                    display: none;
+                    @include md{
+                        display: block;
+                    }
+                    strong{
+                        font-weight: 700;
+                        padding-right: 8px;
+                    }
+                }
+                &_title-win{
+                    margin-top: 32px;
+                    padding-bottom: 8px;
+                    color:#C3281E ;
+                    font-weight: 700;
+                    font-size: 20px;
+                    display: none;
+                    @include md{
+                        display: block;
+                    }
+                }
+            }
+        }
+        .box-title{
+            .top-name{
+                font-size: 25px;
+                font-weight: 200;
+                color: #fff;
+                text-transform: uppercase;
+                margin-bottom: 0;
+                line-height: 0.5rem;
+            }
+            .name{
+                font-size: 60px;
+                font-weight: 900;
+                margin-bottom: 0;
+                color: #fff;
+                text-transform: uppercase;
+
+                @include md{
+                    font-size: 80px;
+                }
+                &_pernambucano{
+                    font-size: 40px;
+                    @include md{
+                        font-size: 55px;
+                    }
+                }
+            }
+            
+            .bottom-name{
+                color:#C3281E ;
+                text-align: start;
+                font-weight: 300;
+                font-size: 18px;
+                text-transform: uppercase;
+                line-height: 0.4rem;
+
+                @include md{
+                    text-align: end;
+                }
+            }
+        }
+        .box-skill{
+            display: flex;
+
+            @include md{
+                display: block;
+                padding-left: 16px;
+            }
+
+            .skill{
+                max-width: 120px;
+                padding: 4px 10px;
+                font-size: 16px;
+                margin: 0px 8px 0px 0px;
+                display: flex;
+                justify-content: center;
+                color: #FFF;
+                font-weight: 700;
+                border-radius: 10px;
+                background-color: rgba(147, 147, 147, 0.7);
+                text-decoration: none;
+
+                @include md{
+                    margin: 0px 0px 8px 0px;
+                }
+            }
+        }
+        
+        .about{
+            width: 50%;
+            height: 70px;
+            background:#191919;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #707172  ;
+            font-weight: 700;
+            
+            &.active{
+                color: #FFF;
+                background: #000;
+            }
+
+        }
+        .title-idols{
+            width: 50%;
+            height: 70px;
+            background:#191919;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #707172  ;
+            font-weight: 700;
+            
+            &.active{
+                color: #FFF;
+                background: #000;
+            }
+
+        }
+        .content-idols{
+            padding: 0px 16px;
+            .content-about{
+                display: none;
+
+                &.active{
+                    display: block;
+                    font-size: 18px;
+                    color: #fff;
+                    font-weight: 300;
+                }
+            }
+            .content-title{
+                display: none;
+                
+                &.active{
+                    display: block;
+                    color: #FFF;
+                    font-size: 18px;
+                    strong{
+                        font-weight: 600;
+                        padding-right: 8px;
+                    }
+                }
+            }
+        }
+    }
+    .slick-nav_idols{
+        background-color: #0E0E0E;
+        justify-content: space-between;
+        color: #FFF;
+        padding: 0px 40px;
+        @include md{
+            justify-content: center;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: transparent;
+        }
+
+        button{
+            background-color: transparent;
+            border: none;
+            padding-top: 16px;
+
+            i{
+                font-size: 50px;
+                color: #fff;
+                font-weight: 300;
+            }
+        }
+        .current{
+            font-weight: 700;
+            font-size: 30px;
+        }
+        .total{
+            font-size: 20px;
+        }
+    }
+}

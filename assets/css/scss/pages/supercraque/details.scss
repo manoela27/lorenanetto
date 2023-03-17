@@ -1,0 +1,44 @@
+.c-details{
+    padding: 30px 0px;
+    background-color: #000;
+    border-top: 1px solid #DF9327;
+    border-bottom: 1px solid #DF9327;
+
+    .item-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .icon-king{
+            height: 30px;
+            width: 30px;
+        }
+    }
+    
+    .slick-track{
+        display: flex;
+        align-items: center;
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        .details{
+            &_title{
+                font-size: 30px;
+                text-transform: uppercase;
+                color: #DF9327;
+                text-align: center;
+                font-family: 'bebas neue';
+            }
+            &_bottom-title{
+                font-family: 'bebas neue';
+                color: #FFF;
+                font-size: 28px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

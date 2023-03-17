@@ -1,0 +1,103 @@
+@mixin md{
+    @media (min-width: 1200px) { @content; }
+}
+.c-chronology{
+    background-image: url('https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/mob-cronology.png');
+    min-height: 100vh;
+    padding: 100px 0px;
+    background-size: cover;
+    background-position: center;
+
+    @include md{
+        background-image: url('https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquepele/bg_cronology.png');
+    }
+
+    .box-chronology{
+        padding: 100px 10px 0px 10px;
+        align-items: center;
+        position: relative;
+        margin-bottom: 42px;
+
+        @include md{
+            margin-bottom: 0px;
+            padding: 100px 0px 0px 0px;
+        }
+        &:last-child{
+            margin-bottom: 0px;
+        }
+    }
+    
+    .chronology{
+        &-img{
+            width: 100%;
+            
+            @include md{
+                width: 100%;
+                min-height: 250px;
+            }
+            
+        }
+        &-time{
+            width: 120px;
+            height: 120px;
+            position: absolute;
+            top: 20px;
+            border-radius: 100%;
+            left: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #FFF;
+            transform: translateX(-50%);
+
+            @include md{
+                width: 200px;
+                height: 200px;
+            }
+            
+            span{
+                font-size: 50px;
+                font-weight: 500;
+                color: #FFF;
+                font-family: 'bebas neue';
+
+                @include md{
+                    font-size: 80px;
+                    font-weight: 700;
+                }
+            }
+        }
+        &-title{
+            color: #FFF;
+            font-size: 40px;
+            font-weight: 500;
+            font-family: 'bebas neue';
+            text-align: center;
+            padding-top: 42px;
+
+            @include md{
+                padding-top: 0px;
+                text-align: start;
+                font-size: 50px;    
+            }
+            br{
+                display: none;
+                @include md{
+                    display: block;
+                }
+            }
+        }
+        &-content{
+            color: #FFF;
+            font-size: 16px;
+            font-weight: 300;
+            padding-top: 32px;
+            text-align: center;
+
+            @include md{
+                padding-top: 0px;
+                text-align: start;
+            }
+        }
+    }
+}
